@@ -1,0 +1,18 @@
+.navbar {
+    background-color: getColour(beige) !important;
+    font-family: $font-nav;
+    font-size: 18px;
+
+    .navbar-brand {
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+    }
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: getColour(primary);
+}

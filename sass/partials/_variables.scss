@@ -1,0 +1,13 @@
+$font-primary: "open sans", sans-serif;
+$font-nav: "archivo narrow", sans-serif;
+
+$colours: (
+    grey: #E5E5E5,
+    beige: #F4F3EE,
+    primary: #C32C72,
+    font: #463F3A,
+);
+
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}

@@ -1,0 +1,7 @@
+footer {
+    display: flex;
+    font-family: $font-primary;
+    background-color: getColour(beige);
+    color: lighten(grey,5%);
+    padding-top: 20px;
+}
